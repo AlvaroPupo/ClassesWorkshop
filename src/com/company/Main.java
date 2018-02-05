@@ -1,8 +1,15 @@
-package com.company;
+public static void main(String[] args) {
 
-public class Main {
+        Dog dog = new Dog();
 
-    public static void main(String[] args) {
-	// write your code here
-    }
-}
+        System.out.println(dog.makeSound());
+
+        Cat cat = new Cat("Person", "Kitty", "124 main street", 5, 'F',
+        true, true, "White");
+
+        System.out.println(cat.makeSound());
+        System.out.println(cat.getGender());
+
+        }
+
+        }
