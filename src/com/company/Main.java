@@ -1,14 +1,20 @@
-public static void main(String[] args) {
+package com.company;
 
-        Dog dog = new Dog();
+public class Main {
 
-        System.out.println(dog.makeSound());
+    public static void main(String[] args) {
+
+//        Dog dog = new Dog();
+//
+//        System.out.println(dog.makeSound());
 
         Cat cat = new Cat("Person", "Kitty", "124 main street", 5, 'F',
         true, true, "White");
 
-        System.out.println(cat.makeSound());
-        System.out.println(cat.getGender());
+//        System.out.println(cat.makeSound());
+//        System.out.println(cat.getGender());
+
+        System.out.println(cat.catto());
 
         }
 

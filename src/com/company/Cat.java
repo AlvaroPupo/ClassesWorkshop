@@ -44,4 +44,22 @@ public class Cat extends Pet {
     protected String makeSound() {
         return "MEOWWWWWW!!!!!!!!";
     }
+    public String catto() {
+        int catAge;
+        switch (super.getAge()) {
+            case 1: catAge = 19;
+            break;
+            case 2: catAge = 24;
+            break;
+            case 3: catAge = (super.getAge() - 2) * 4 + 24;
+            break;
+            default:catAge = 0;
+            break;
+        }
+        return super.getPetName() + " is " + super.getAge() + " in human years and " + catAge + " in cat years.";
+    }
+    @Override
+    public String getPetName() {
+        return getPetName();
+    }
 }
